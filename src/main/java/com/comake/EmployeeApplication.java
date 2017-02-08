@@ -37,27 +37,6 @@ public class EmployeeApplication {
 	}
 
 	/**
-	 * Bean {@link EmployeeServiceImpl}
-	 * 
-	 * @return
-	 */
-	@Bean
-	public EmployeeServiceImpl employeeServiceImpl() {
-		EmployeeServiceImpl employeeServiceImpl = new EmployeeServiceImpl();
-
-		return employeeServiceImpl;
-	}
-
-	/**
-	 * Bean {@link EmployeeDaoImpl}
-	 * 
-	 * @return
-	 */
-	public EmployeeDaoImpl employeeDaoImpl() {
-		return new EmployeeDaoImpl();
-	}
-
-	/**
 	 * Run the Spring application
 	 * 
 	 * @param args
